@@ -1,13 +1,18 @@
 {
-  "name": "zgj-cli",
+  "name": "vue-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
+  "exports": {
+    "default": "./index.js"
+  },
+  "sideEffects": false,
   "bin": {
-    "zgj-cli": "index.js"
+    "vue-cli": "index.js",
+    "prepare-commit-msg": "./.git/hooks/prepare-commit-msg.js"
   },
   "repository": {
     "type": "git",
