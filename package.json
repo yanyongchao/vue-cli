@@ -5,14 +5,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type": "module",
   "exports": {
     "default": "./index.js"
   },
   "sideEffects": false,
   "bin": {
-    "vue-cli": "index.js",
-    "prepare-commit-msg": "./.git/hooks/prepare-commit-msg.js"
+    "vue-cli": "index.js"
   },
   "repository": {
     "type": "git",
