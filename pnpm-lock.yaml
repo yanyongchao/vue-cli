@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@types/inquirer': ^9.0.7
   chalk: ^5.3.0
   commander: ^12.1.0
   handlebars: ^4.7.8
@@ -12,6 +13,7 @@ specifiers:
   simple-git: ^3.25.0
 
 devDependencies:
+  '@types/inquirer': 9.0.7
   chalk: 5.3.0
   commander: 12.1.0
   handlebars: 4.7.8
@@ -194,6 +196,13 @@ packages:
     dev: true
     optional: true
 
+  /@types/inquirer/9.0.7:
+    resolution: {integrity: sha512-Q0zyBupO6NxGRZut/JdmqYKOnN95Eg5V8Csg3PGKkP+FnvsUZx1jAyK7fztIszxxMuoBA6E3KXWvdZVXIpx60g==}
+    dependencies:
+      '@types/through': 0.0.33
+      rxjs: 7.8.1
+    dev: true
+
   /@types/mute-stream/0.0.4:
     resolution: {integrity: sha512-CPM9nzrCPPJHQNA9keH9CVkVI+WR5kMa+7XEs5jcGQ0VoAGnLv242w8lIVgwAEfmE4oufJRaTc9PNLQl0ioAow==}
     dependencies:
@@ -204,6 +213,12 @@ packages:
     resolution: {integrity: sha512-49AbMDwYUz7EXxKU/r7mXOsxwFr4BYbvB7tWYxVuLdb2ibd30ijjXINSMAHiEEZk5PCRBmW1gUeisn2VMKt3cQ==}
     dependencies:
       undici-types: 6.19.6
+    dev: true
+
+  /@types/through/0.0.33:
+    resolution: {integrity: sha512-HsJ+z3QuETzP3cswwtzt2vEIiHBk/dCcHGhbmG5X3ecnwFD/lPrMpliGXxSCg03L9AhrdwA4Oz/qfspkDW+xGQ==}
+    dependencies:
+      '@types/node': 22.4.0
     dev: true
 
   /@types/wrap-ansi/3.0.0:

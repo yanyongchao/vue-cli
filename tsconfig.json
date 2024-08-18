@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noImplicitThis": true,
+    "stripInternal": true,
+    "pretty": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "outDir": "lib",
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/index.mts"],
+  "exclude": ["lib", "node_modules", "test"]
+}

@@ -19,7 +19,7 @@ program
   .option("-s, --ssh", "使用ssh方式下载模板")
   .action((name, cmd) => {
     if (!fs.existsSync(name)) {
-      const options = [
+      const options: any = [
         {
           type: "input",
           name: "author",
@@ -31,7 +31,7 @@ program
           message: "请输入项目描述",
         },
       ];
-      inquirer.prompt(options).then((answers) => {
+      inquirer.prompt(options).then((answers: any) => {
         let spinner = ora("正在下载模板...");
         spinner.start();
         let url = "https://github.com/yanyongchao/yl-vue-template.git";
